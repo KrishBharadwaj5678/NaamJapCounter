@@ -1,7 +1,7 @@
 import { useState } from "react";
 import "./App.css";
 import "rsuite/dist/rsuite.min.css";
-import Home from "./pages/Home";
+import Home from "./pages/Home/Home";
 import { CustomProvider } from "rsuite";
 
 // Ref: https://radhanaamjapcounter.com/
