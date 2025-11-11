@@ -2,19 +2,21 @@
 
 **Naam Jap Counter** is a peaceful and interactive web app that helps devotees count their **Radha Naam Jap** with ease and focus. Immerse yourself in divine bliss as you chant, listen, and track your devotion through a beautifully designed interface. 
 
----
+![NaamJapCounter](https://github.com/KrishBharadwaj5678/NaamJapCounter/raw/main/NaamJapCounterDemo.png)
 
-## 🪔 Features
 
-| 🌟 Feature               | 💡 Description                                               |
+## ⚙️ Features
+
+|  Feature               |  Description                                               |
 | ------------------------ | ------------------------------------------------------------ |
-| 👆 **Tap to Count**      | Count *Radha Naam* by simply tapping anywhere on the screen. |
-| 🎧 **Radha Naam Audio**  | Plays *Radha Naam* by **Premanand Maharaj Ji** when tapped.  |
+| 👆 **Tap to Count**      | Count Radha Naam by simply tapping anywhere on the screen. |
+| 🎧 **Radha Naam Audio**  | Plays Radha Naam by **Premanand Maharaj Ji** when tapped.  |
 | 🔇 **Mute / Unmute**     | Toggle sound according to your preference.                   |
 | 🌓 **Dark & Light Mode** | Switch between peaceful dark mode and bright light mode.     |
 | ⏱️ **Timer**             | Track the duration of your chanting session.                 |
 | 🔢 **Total Japa Count**  | Displays total number of *Radha Naam* recitations.           |
 | 📿 **Mala Counter**      | Automatically counts completed malas (rounds).               |
+| 🎉 **Confetti Celebration** | Celebrate spiritual milestones with confetti after each 100 counts. | 
 | 🖥️ **Full Screen Mode** | Focus completely on devotion with full-screen chanting.      |
 | 📱 **Responsive Design** | Works seamlessly on mobile, tablet, and desktop.             |
 
@@ -28,6 +30,7 @@
 | 🧩 **TypeScript**   | Adds strong typing and improved development experience |
 | 🎨 **Tailwind CSS** | For elegant, responsive, and modern styling            |
 | 💎 **RSuite**       | Provides clean and accessible UI components            |
+| 🎊 **JS Confetti**  | Confetti animation after each completed mala           |
 
 ---
 
