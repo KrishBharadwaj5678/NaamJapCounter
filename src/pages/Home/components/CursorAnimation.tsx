@@ -8,7 +8,7 @@ interface CursorAnimation {
   cursorText: Cursor[];
 }
 
-const CursorAnimation = ({ cursorText }: CursorAnimation) => {
+let CursorAnimation = ({ cursorText }: CursorAnimation) => {
   return (
     <>
       {cursorText.map((r) => (

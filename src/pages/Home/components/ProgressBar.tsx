@@ -5,7 +5,7 @@ interface ProgressBar {
   currentJapa: number;
 }
 
-const ProgressBar = ({ progressCount, currentJapa }: ProgressBar) => {
+let ProgressBar = ({ progressCount, currentJapa }: ProgressBar) => {
   return (
     <div className="flex justify-center items-center mt-9 md:mt-14">
       <div className="w-50 relative">

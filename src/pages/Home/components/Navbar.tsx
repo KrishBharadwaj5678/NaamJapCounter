@@ -8,7 +8,7 @@ interface Navbar {
   toggleTheme: () => void;
 }
 
-const Navbar = ({ theme, handleChants, chant, toggleTheme }: Navbar) => {
+let Navbar = ({ theme, handleChants, chant, toggleTheme }: Navbar) => {
   return (
     <>
       {/* Navbar */}

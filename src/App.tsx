@@ -4,10 +4,6 @@ import "rsuite/dist/rsuite.min.css";
 import Home from "./pages/Home/Home";
 import { CustomProvider } from "rsuite";
 
-// Ref: https://radhanaamjapcounter.com/
-
-// Todo: Add a timer
-
 function App() {
   let [theme, setTheme] = useState<"light" | "dark">("light");
 

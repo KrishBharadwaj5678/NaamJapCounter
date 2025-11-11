@@ -5,7 +5,7 @@ interface JapTimer {
   time: { hour: number; min: number; sec: number };
 }
 
-const JapTimer = ({ theme, time }: JapTimer) => {
+let JapTimer = ({ theme, time }: JapTimer) => {
   // Format the time
   let formatTime = (unit: number) => String(unit).padStart(2, "0");
 

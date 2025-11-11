@@ -5,7 +5,7 @@ interface StatsCard {
   value: number;
 }
 
-const StatsCard = ({ theme, emoji, label, value }: StatsCard) => {
+let StatsCard = ({ theme, emoji, label, value }: StatsCard) => {
   return (
     <div
       className={`${

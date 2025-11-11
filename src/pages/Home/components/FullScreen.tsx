@@ -5,7 +5,7 @@ interface FullScreen {
   toggleFullScreen: () => void;
 }
 
-const FullScreen = ({ fullScreen, toggleFullScreen }: FullScreen) => {
+let FullScreen = ({ fullScreen, toggleFullScreen }: FullScreen) => {
   return (
     <div className="flex justify-center mt-7 md:mt-8.5 pb-6 md:pb-0">
       <div

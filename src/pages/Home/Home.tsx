@@ -21,17 +21,18 @@ interface Cursor {
   y: number;
 }
 
-const Home = ({ toggleTheme, theme }: HomeProps) => {
+let Home = ({ toggleTheme, theme }: HomeProps) => {
   let [currentJapa, setCurrentJapa] = useState(0);
+  let [cursorText, setCursorText] = useState<Cursor[]>([]);
+  let [progressCount, setProgressCount] = useState(0);
+  let [chant, setChant] = useState(true);
+  let [fullScreen, setFullScreen] = useState(false);
 
-  const todayJapa = useMemo(
+  let todayJapa = useMemo(
     () => Number(localStorage.getItem("radhaJapa")) | 0,
     []
   );
 
-  const [cursorText, setCursorText] = useState<Cursor[]>([]);
-  let [progressCount, setProgressCount] = useState(0);
-  let [chant, setChant] = useState(true);
   let [totalMala, setTotalMala] = useState(
     Number(localStorage.getItem("totalMala"))
   );
@@ -40,9 +41,8 @@ const Home = ({ toggleTheme, theme }: HomeProps) => {
     min: 0,
     sec: 0,
   });
-  let [fullScreen, setFullScreen] = useState(false);
 
-  const jsConfetti = useRef(new JSConfetti());
+  let jsConfetti = useRef(new JSConfetti());
 
   let radhaChant = new Audio(radhaPremanandJi);
 
@@ -147,15 +147,11 @@ const Home = ({ toggleTheme, theme }: HomeProps) => {
     return () => clearInterval(timer);
   }, []);
 
+  // Whenever either currentJapa or totalMala changes, React re-runs this effect
   useEffect(() => {
     localStorage.setItem("radhaJapa", String(todayJapa + currentJapa));
-  }, [currentJapa]);
-
-  useEffect(() => {
     localStorage.setItem("totalMala", String(totalMala));
-  }, [totalMala]);
-
-  // localStorage.clear();
+  }, [currentJapa, totalMala]);
 
   return (
     <div
