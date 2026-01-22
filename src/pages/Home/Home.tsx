@@ -30,11 +30,11 @@ let Home = ({ toggleTheme, theme }: HomeProps) => {
 
   let todayJapa = useMemo(
     () => Number(localStorage.getItem("radhaJapa")) | 0,
-    []
+    [],
   );
 
   let [totalMala, setTotalMala] = useState(
-    Number(localStorage.getItem("totalMala"))
+    Number(localStorage.getItem("totalMala")),
   );
   let [time, setTime] = useState({
     hour: 0,
@@ -54,7 +54,7 @@ let Home = ({ toggleTheme, theme }: HomeProps) => {
       radhaChant.play();
     }
 
-    if (progressCount >= 100) {
+    if (progressCount >= 108) {
       setProgressCount(1);
       setTotalMala((prev) => prev + 1);
       handleCelebrate();
