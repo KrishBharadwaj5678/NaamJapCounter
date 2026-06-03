@@ -1,3 +1,5 @@
+[English](README.md) | [Português](README.pt.md) | [日本語](README.ja.md) | [Русский](README.ru.md)
+
 # 🌸 Naam Jap Counter
 
 **Naam Jap Counter** is a peaceful and interactive web app that helps devotees count their **Radha Naam Jap** with ease and focus. Immerse yourself in divine bliss as you chant, listen, and track your devotion through a beautifully designed interface. 
