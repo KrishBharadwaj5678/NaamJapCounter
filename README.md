@@ -40,13 +40,13 @@
 ### 1️⃣ Clone the repository
 
 ```bash
-  git clone https://github.com/KrishBharadwaj5678/Avatax.git
+  git clone https://github.com/KrishBharadwaj5678/NaamJapCounter.git
 ```
 
 ### 2️⃣ Navigate to project folder
 
 ```bash
-  cd Avatax
+  cd NaamJapCounter
 ```
 
 ### 3️⃣ Install dependencies
