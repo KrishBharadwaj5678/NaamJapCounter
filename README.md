@@ -4,7 +4,6 @@
 
 ![NaamJapCounter](https://github.com/KrishBharadwaj5678/NaamJapCounter/raw/main/NaamJapCounterDemo.png)
 
-
 ## ⚙️ Features
 
 |  Feature               |  Description                                               |
@@ -34,38 +33,30 @@
 
 ---
 
-## 🚀 Getting Started
+## 🛠️ Installation 
 
-1. **Clone the Repository:**
+### 1️⃣ Clone the repository
 
-   ```bash
-   git clone https://github.com/KrishBharadwaj5678/NaamJapCounter.git
-   cd NaamJapCounter
-   ```
+```bash
+  git clone https://github.com/KrishBharadwaj5678/Avatax.git
+```
 
-2. **Install Dependencies:**
+### 2️⃣ Navigate to project folder
 
-   ```bash
-   npm install
-   ```
+```bash
+  cd Avatax
+```
 
-3. **Run the App:**
+### 3️⃣ Install dependencies
 
-   ```bash
-   npm run dev
-   ```
+```bash
+  npm install
+```
 
-4. **Open in Browser:**
-   Navigate to `http://localhost:5173` (or as shown in your terminal) and start chanting.
+### 4️⃣ Start the Development Server
 
----
+```bash
+  npm run dev
+```
 
-## Contributing 🤝
-
-Want to contribute? Here's how:
-
-1. 🍴 Fork the repository.
-2. 🌿 Create a new branch (`git checkout -b feature-name`).
-3. ✍️ Make your changes and commit them (`git commit -am 'Add feature-name'`).
-4. 🚀 Push to your branch (`git push origin feature-name`).
-5. 🔄 Submit a pull request to merge into the main branch.
+### 5️⃣ Open the app in your browser
